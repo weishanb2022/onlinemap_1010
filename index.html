@@ -85,7 +85,7 @@
             "getSize": 32,
             "id": "time-text-layer",
             "pickable": false,
-            "color": [0, 0, 0] // 白色文字
+            "color": [255, 255, 255] // 白色文字
           }
         ],
         "mapProvider": "carto",
@@ -169,7 +169,7 @@
                 data: showCollision,
                 getPosition: d => d.position,
                 getColor: d => d.color,
-                getRadius: 100,
+                getRadius: 50,
                 pickable: true
               }),
               new deck.TextLayer({
